@@ -2319,3 +2319,6 @@ asyncio.exceptions.TimeoutError
 [2022-07-03 15:24:23,186] - [WARNING] - [aiogram(executor.py) - start_polling329] - Goodbye!
 [MainProcess:10539] [MainThread:4309435776] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/utils/executor.py
 
+[2022-07-03 15:43:24,565] - [WARNING] - [aiogram(executor.py) - start_polling329] - Goodbye!
+[MainProcess:10544] [MainThread:4375709056] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/utils/executor.py
+

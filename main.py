@@ -66,4 +66,3 @@ def stop_bot():
 
 if __name__ == "__main__":
     executor.start_polling(dp)
-    dp.stop_polling(stop_bot)

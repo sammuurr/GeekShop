@@ -2961,3 +2961,5 @@ asyncio.exceptions.TimeoutError
 [2022-07-03 15:24:23,186] - [WARNING] -->  Goodbye!
 [2022-07-03 15:24:26,124] - [INFO] -->  Bot: Geek Shop [@Geek_sh_bot]
 [2022-07-03 15:24:26,124] - [INFO] -->  Start polling.
+[2022-07-03 15:43:24,555] - [INFO] -->  Stop polling...
+[2022-07-03 15:43:24,565] - [WARNING] -->  Goodbye!
