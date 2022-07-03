@@ -1,0 +1,2066 @@
+[2022-06-20 16:04:33,330] - [ERROR] - [aiogram.dispatcher.dispatcher(dispatcher.py) - start_polling390] - Cause exception while getting updates.
+[MainProcess:15538] [MainThread:4345136512] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 913, in start
+    self._continue = None
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+[2022-06-20 16:15:02,335] - [ERROR] - [aiogram.dispatcher.dispatcher(dispatcher.py) - start_polling390] - Cause exception while getting updates.
+[MainProcess:16586] [MainThread:4299457920] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 913, in start
+    self._continue = None
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+[2022-06-20 22:46:24,451] - [ERROR] - [aiogram.dispatcher.dispatcher(dispatcher.py) - start_polling390] - Cause exception while getting updates.
+[MainProcess:16787] [MainThread:4375348608] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 913, in start
+    self._continue = None
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+[2022-06-21 00:38:03,637] - [ERROR] - [aiogram.dispatcher.dispatcher(dispatcher.py) - start_polling390] - Cause exception while getting updates.
+[MainProcess:18751] [MainThread:4338648448] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 913, in start
+    self._continue = None
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+[2022-06-21 01:09:35,898] - [ERROR] - [asyncio(base_events.py) - default_exception_handler1738] - Task exception was never retrieved
+future: <Task finished name='Task-20' coro=<Dispatcher._process_polling_updates() done, defined at /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=IndexError('list index out of range')>
+[MainProcess:19468] [MainThread:4379067776] - /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/handlers/command_handlers/admin.py", line 13, in process_admin_command
+    if message.from_user.id in admins[0]:
+IndexError: list index out of range
+[2022-06-21 01:09:38,207] - [ERROR] - [asyncio(base_events.py) - default_exception_handler1738] - Task exception was never retrieved
+future: <Task finished name='Task-23' coro=<Dispatcher._process_polling_updates() done, defined at /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=IndexError('list index out of range')>
+[MainProcess:19468] [MainThread:4379067776] - /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/handlers/command_handlers/admin.py", line 13, in process_admin_command
+    if message.from_user.id in admins[0]:
+IndexError: list index out of range
+[2022-06-21 01:10:32,551] - [ERROR] - [asyncio(base_events.py) - default_exception_handler1738] - Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<Dispatcher._process_polling_updates() done, defined at /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=IndexError('list index out of range')>
+[MainProcess:19541] [MainThread:4378133888] - /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/handlers/command_handlers/admin.py", line 14, in process_admin_command
+    if message.from_user.id in admins[0]:
+IndexError: list index out of range
+[2022-06-21 01:41:51,765] - [ERROR] - [asyncio(base_events.py) - default_exception_handler1738] - Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<Dispatcher._process_polling_updates() done, defined at /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=CantParseEntities("Can't parse entities: can't find end tag corresponding to start tag i")>
+[MainProcess:20148] [MainThread:4345267584] - /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/handlers/command_handlers/start.py", line 13, in process_start_command
+    await bot.send_message(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 334, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.CantParseEntities: Can't parse entities: can't find end tag corresponding to start tag i
+[2022-06-21 01:44:24,393] - [ERROR] - [asyncio(base_events.py) - default_exception_handler1738] - Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<Dispatcher._process_polling_updates() done, defined at /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=CantParseEntities("Can't parse entities: can't find end tag corresponding to start tag i")>
+[MainProcess:20246] [MainThread:4339975552] - /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/handlers/command_handlers/start.py", line 13, in process_start_command
+    await bot.send_message(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 334, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.CantParseEntities: Can't parse entities: can't find end tag corresponding to start tag i
+[2022-06-21 01:45:09,788] - [ERROR] - [asyncio(base_events.py) - default_exception_handler1738] - Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<Dispatcher._process_polling_updates() done, defined at /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=CantParseEntities("Can't parse entities: can't find end tag corresponding to start tag em")>
+[MainProcess:20280] [MainThread:4330718592] - /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/handlers/command_handlers/start.py", line 13, in process_start_command
+    await bot.send_message(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 334, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.CantParseEntities: Can't parse entities: can't find end tag corresponding to start tag em
+[2022-06-21 01:56:19,351] - [ERROR] - [asyncio(base_events.py) - default_exception_handler1738] - Task exception was never retrieved
+future: <Task finished name='Task-11' coro=<Dispatcher._process_polling_updates() done, defined at /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=IndexError('list index out of range')>
+[MainProcess:20526] [MainThread:4335715712] - /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/handlers/inline_handlers/admin_menu/admin_menu_admins.py", line 35, in enter_add_newadmin
+    await bot.send_message(
+TypeError: send_message() got an unexpected keyword argument 'id'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/handlers/inline_handlers/admin_menu/admin_menu_admins.py", line 56, in enter_add_newadmin
+    for admin in getUsers(is_admins=True)[0]:
+IndexError: list index out of range
+[2022-06-21 01:57:06,058] - [ERROR] - [asyncio(base_events.py) - default_exception_handler1738] - Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<Dispatcher._process_polling_updates() done, defined at /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=IndexError('list index out of range')>
+[MainProcess:20551] [MainThread:4311336320] - /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/handlers/command_handlers/admin.py", line 13, in process_admin_command
+    if message.from_user.id in admins[0]:
+IndexError: list index out of range
+[2022-06-21 01:57:08,661] - [ERROR] - [asyncio(base_events.py) - default_exception_handler1738] - Task exception was never retrieved
+future: <Task finished name='Task-10' coro=<Dispatcher._process_polling_updates() done, defined at /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=IndexError('list index out of range')>
+[MainProcess:20551] [MainThread:4311336320] - /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/handlers/command_handlers/admin.py", line 13, in process_admin_command
+    if message.from_user.id in admins[0]:
+IndexError: list index out of range
+[2022-06-21 01:57:33,684] - [ERROR] - [asyncio(base_events.py) - default_exception_handler1738] - Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<Dispatcher._process_polling_updates() done, defined at /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=IndexError('list index out of range')>
+[MainProcess:20585] [MainThread:4367058304] - /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/handlers/command_handlers/admin.py", line 13, in process_admin_command
+    if message.from_user.id in admins[0]:
+IndexError: list index out of range
+[2022-06-21 01:58:23,832] - [ERROR] - [asyncio(base_events.py) - default_exception_handler1738] - Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<Dispatcher._process_polling_updates() done, defined at /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=IndexError('list index out of range')>
+[MainProcess:20614] [MainThread:4338042240] - /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/handlers/command_handlers/admin.py", line 15, in process_admin_command
+    if message.from_user.id in admins[0]:
+IndexError: list index out of range
+[2022-06-21 02:00:39,895] - [ERROR] - [asyncio(base_events.py) - default_exception_handler1738] - Task exception was never retrieved
+future: <Task finished name='Task-31' coro=<Dispatcher._process_polling_updates() done, defined at /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=IndexError('list index out of range')>
+[MainProcess:20614] [MainThread:4338042240] - /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/handlers/inline_handlers/admin_menu/admin_menu_admins.py", line 35, in enter_add_newadmin
+    await bot.send_message(
+TypeError: send_message() got an unexpected keyword argument 'id'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/handlers/inline_handlers/admin_menu/admin_menu_admins.py", line 56, in enter_add_newadmin
+    for admin in getUsers(is_admins=True)[0]:
+IndexError: list index out of range
+[2022-06-21 02:02:37,272] - [ERROR] - [asyncio(base_events.py) - default_exception_handler1738] - Task exception was never retrieved
+future: <Task finished name='Task-40' coro=<Dispatcher._process_polling_updates() done, defined at /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=IndexError('list index out of range')>
+[MainProcess:20614] [MainThread:4338042240] - /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/handlers/command_handlers/admin.py", line 15, in process_admin_command
+    "Открыл <b>панель администратора</b>", reply_markup=admin_panel_keyboard
+IndexError: list index out of range
+[2022-06-21 02:03:54,987] - [ERROR] - [asyncio(base_events.py) - default_exception_handler1738] - Task exception was never retrieved
+future: <Task finished name='Task-12' coro=<Dispatcher._process_polling_updates() done, defined at /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=IndexError('list index out of range')>
+[MainProcess:20725] [MainThread:4341630336] - /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/handlers/inline_handlers/admin_menu/admin_menu_admins.py", line 35, in enter_add_newadmin
+    await bot.send_message(
+TypeError: send_message() got an unexpected keyword argument 'id'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/handlers/inline_handlers/admin_menu/admin_menu_admins.py", line 56, in enter_add_newadmin
+    for admin in getUsers(is_admins=True)[0]:
+IndexError: list index out of range
+[2022-06-21 02:07:00,827] - [ERROR] - [asyncio(base_events.py) - default_exception_handler1738] - Task exception was never retrieved
+future: <Task finished name='Task-29' coro=<Dispatcher._process_polling_updates() done, defined at /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=IndexError('list index out of range')>
+[MainProcess:20725] [MainThread:4341630336] - /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/handlers/inline_handlers/admin_menu/admin_menu_admins.py", line 35, in enter_add_newadmin
+    await bot.send_message(
+TypeError: send_message() got an unexpected keyword argument 'id'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/handlers/inline_handlers/admin_menu/admin_menu_admins.py", line 56, in enter_add_newadmin
+    for admin in getUsers(is_admins=True)[0]:
+IndexError: list index out of range
+[2022-06-21 09:18:55,343] - [ERROR] - [aiogram.dispatcher.dispatcher(dispatcher.py) - start_polling390] - Cause exception while getting updates.
+[MainProcess:21045] [MainThread:4310386048] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 913, in start
+    self._continue = None
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+[2022-06-21 14:46:50,118] - [ERROR] - [aiogram.dispatcher.dispatcher(dispatcher.py) - start_polling390] - Cause exception while getting updates.
+[MainProcess:21045] [MainThread:4310386048] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 913, in start
+    self._continue = None
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+[2022-06-21 18:12:59,858] - [ERROR] - [aiogram.dispatcher.dispatcher(dispatcher.py) - start_polling390] - Cause exception while getting updates.
+[MainProcess:21045] [MainThread:4310386048] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 913, in start
+    self._continue = None
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+[2022-06-22 01:48:49,364] - [ERROR] - [aiogram.dispatcher.dispatcher(dispatcher.py) - start_polling390] - Cause exception while getting updates.
+[MainProcess:21045] [MainThread:4310386048] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 913, in start
+    self._continue = None
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+[2022-06-22 03:44:03,004] - [ERROR] - [aiogram.dispatcher.dispatcher(dispatcher.py) - start_polling390] - Cause exception while getting updates.
+[MainProcess:21045] [MainThread:4310386048] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 913, in start
+    self._continue = None
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+[2022-06-22 12:01:26,160] - [ERROR] - [aiogram.dispatcher.dispatcher(dispatcher.py) - start_polling390] - Cause exception while getting updates.
+[MainProcess:21045] [MainThread:4310386048] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 913, in start
+    self._continue = None
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+[2022-06-22 16:55:29,822] - [ERROR] - [aiogram.dispatcher.dispatcher(dispatcher.py) - start_polling390] - Cause exception while getting updates.
+[MainProcess:21045] [MainThread:4310386048] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 913, in start
+    self._continue = None
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+[2022-06-22 19:39:53,915] - [ERROR] - [aiogram.dispatcher.dispatcher(dispatcher.py) - start_polling390] - Cause exception while getting updates.
+[MainProcess:21045] [MainThread:4310386048] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 913, in start
+    self._continue = None
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+[2022-06-22 20:29:33,234] - [ERROR] - [aiogram.dispatcher.dispatcher(dispatcher.py) - start_polling390] - Cause exception while getting updates.
+[MainProcess:21045] [MainThread:4310386048] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 913, in start
+    self._continue = None
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+[2022-06-22 23:56:09,941] - [ERROR] - [aiogram.dispatcher.dispatcher(dispatcher.py) - start_polling390] - Cause exception while getting updates.
+[MainProcess:21045] [MainThread:4310386048] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 913, in start
+    self._continue = None
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+[2022-06-23 01:22:59,832] - [ERROR] - [aiogram.dispatcher.dispatcher(dispatcher.py) - start_polling390] - Cause exception while getting updates.
+[MainProcess:21045] [MainThread:4310386048] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 913, in start
+    self._continue = None
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+[2022-06-23 08:35:49,031] - [ERROR] - [aiogram.dispatcher.dispatcher(dispatcher.py) - start_polling390] - Cause exception while getting updates.
+[MainProcess:21045] [MainThread:4310386048] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 913, in start
+    self._continue = None
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+[2022-06-23 13:51:10,924] - [ERROR] - [aiogram.dispatcher.dispatcher(dispatcher.py) - start_polling390] - Cause exception while getting updates.
+[MainProcess:21045] [MainThread:4310386048] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 913, in start
+    self._continue = None
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+[2022-06-23 20:10:25,405] - [ERROR] - [aiogram.dispatcher.dispatcher(dispatcher.py) - start_polling390] - Cause exception while getting updates.
+[MainProcess:21045] [MainThread:4310386048] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 913, in start
+    self._continue = None
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+[2022-06-24 00:43:54,801] - [ERROR] - [aiogram.dispatcher.dispatcher(dispatcher.py) - start_polling390] - Cause exception while getting updates.
+[MainProcess:21045] [MainThread:4310386048] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 913, in start
+    self._continue = None
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+[2022-06-24 06:27:47,767] - [ERROR] - [aiogram.dispatcher.dispatcher(dispatcher.py) - start_polling390] - Cause exception while getting updates.
+[MainProcess:21045] [MainThread:4310386048] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 913, in start
+    self._continue = None
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+[2022-06-24 11:58:32,115] - [ERROR] - [aiogram.dispatcher.dispatcher(dispatcher.py) - start_polling390] - Cause exception while getting updates.
+[MainProcess:21045] [MainThread:4310386048] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 913, in start
+    self._continue = None
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+[2022-06-24 12:35:47,117] - [ERROR] - [aiogram.dispatcher.dispatcher(dispatcher.py) - start_polling390] - Cause exception while getting updates.
+[MainProcess:21045] [MainThread:4310386048] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 913, in start
+    self._continue = None
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+[2022-06-24 15:09:16,813] - [ERROR] - [aiogram.dispatcher.dispatcher(dispatcher.py) - start_polling390] - Cause exception while getting updates.
+[MainProcess:21045] [MainThread:4310386048] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 913, in start
+    self._continue = None
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+[2022-06-24 19:43:00,051] - [ERROR] - [aiogram.dispatcher.dispatcher(dispatcher.py) - start_polling390] - Cause exception while getting updates.
+[MainProcess:21045] [MainThread:4310386048] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 913, in start
+    self._continue = None
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+[2022-06-25 03:14:48,059] - [ERROR] - [aiogram.dispatcher.dispatcher(dispatcher.py) - start_polling390] - Cause exception while getting updates.
+[MainProcess:21045] [MainThread:4310386048] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 913, in start
+    self._continue = None
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+[2022-06-25 12:53:44,365] - [ERROR] - [aiogram.dispatcher.dispatcher(dispatcher.py) - start_polling390] - Cause exception while getting updates.
+[MainProcess:21045] [MainThread:4310386048] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 913, in start
+    self._continue = None
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+[2022-06-25 20:07:36,524] - [ERROR] - [aiogram.dispatcher.dispatcher(dispatcher.py) - start_polling390] - Cause exception while getting updates.
+[MainProcess:21045] [MainThread:4310386048] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 913, in start
+    self._continue = None
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+[2022-06-26 04:21:01,673] - [ERROR] - [aiogram.dispatcher.dispatcher(dispatcher.py) - start_polling390] - Cause exception while getting updates.
+[MainProcess:21045] [MainThread:4310386048] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 913, in start
+    self._continue = None
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+[2022-06-26 10:20:05,011] - [ERROR] - [aiogram.dispatcher.dispatcher(dispatcher.py) - start_polling390] - Cause exception while getting updates.
+[MainProcess:21045] [MainThread:4310386048] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 913, in start
+    self._continue = None
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+[2022-06-26 11:05:29,194] - [ERROR] - [asyncio(base_events.py) - default_exception_handler1738] - Task exception was never retrieved
+future: <Task finished name='Task-12' coro=<Dispatcher._process_polling_updates() done, defined at /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=CantParseEntities("Can't parse entities: unexpected end of name token at byte offset 8")>
+[MainProcess:33166] [MainThread:4378445184] - /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/handlers/inline_handlers/admin_menu/admin_menu_admins.py", line 36, in enter_add_newadmin
+    await bot.send_message(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 334, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.ChatNotFound: Chat not found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/handlers/inline_handlers/admin_menu/admin_menu_admins.py", line 59, in enter_add_newadmin
+    await bot.send_message(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 334, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.CantParseEntities: Can't parse entities: unexpected end of name token at byte offset 8
+[2022-06-26 11:07:14,110] - [ERROR] - [asyncio(base_events.py) - default_exception_handler1738] - Task exception was never retrieved
+future: <Task finished name='Task-12' coro=<Dispatcher._process_polling_updates() done, defined at /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=CantParseEntities("Can't parse entities: unexpected end of name token at byte offset 8")>
+[MainProcess:33226] [MainThread:4335863168] - /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/handlers/inline_handlers/admin_menu/admin_menu_admins.py", line 36, in enter_add_newadmin
+    await bot.send_message(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 334, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.ChatNotFound: Chat not found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/handlers/inline_handlers/admin_menu/admin_menu_admins.py", line 59, in enter_add_newadmin
+    await bot.send_message(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 334, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.CantParseEntities: Can't parse entities: unexpected end of name token at byte offset 8
+[2022-06-26 11:11:20,922] - [ERROR] - [asyncio(base_events.py) - default_exception_handler1738] - Task exception was never retrieved
+future: <Task finished name='Task-12' coro=<Dispatcher._process_polling_updates() done, defined at /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=CantParseEntities("Can't parse entities: unexpected end of name token at byte offset 11")>
+[MainProcess:33304] [MainThread:4376102272] - /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/handlers/inline_handlers/admin_menu/admin_menu_admins.py", line 36, in enter_add_newadmin
+    await bot.send_message(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 334, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.ChatNotFound: Chat not found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/handlers/inline_handlers/admin_menu/admin_menu_admins.py", line 59, in enter_add_newadmin
+    await bot.send_message(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 334, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.CantParseEntities: Can't parse entities: unexpected end of name token at byte offset 11
+[2022-06-26 11:11:39,664] - [ERROR] - [asyncio(base_events.py) - default_exception_handler1738] - Task exception was never retrieved
+future: <Task finished name='Task-12' coro=<Dispatcher._process_polling_updates() done, defined at /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=CantParseEntities("Can't parse entities: unexpected end of name token at byte offset 8")>
+[MainProcess:33320] [MainThread:4311418240] - /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/handlers/inline_handlers/admin_menu/admin_menu_admins.py", line 36, in enter_add_newadmin
+    await bot.send_message(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 334, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.ChatNotFound: Chat not found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/handlers/inline_handlers/admin_menu/admin_menu_admins.py", line 59, in enter_add_newadmin
+    await bot.send_message(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 334, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.CantParseEntities: Can't parse entities: unexpected end of name token at byte offset 8
+[2022-06-26 12:17:47,881] - [ERROR] - [aiogram.dispatcher.dispatcher(dispatcher.py) - start_polling390] - Cause exception while getting updates.
+[MainProcess:33736] [MainThread:4337419648] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 913, in start
+    self._continue = None
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+[2022-06-26 19:25:13,203] - [ERROR] - [aiogram.dispatcher.dispatcher(dispatcher.py) - start_polling390] - Cause exception while getting updates.
+[MainProcess:33736] [MainThread:4337419648] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 913, in start
+    self._continue = None
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+[2022-06-26 22:18:50,881] - [ERROR] - [aiogram.dispatcher.dispatcher(dispatcher.py) - start_polling390] - Cause exception while getting updates.
+[MainProcess:33736] [MainThread:4337419648] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 913, in start
+    self._continue = None
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+[2022-06-27 05:26:10,525] - [ERROR] - [aiogram.dispatcher.dispatcher(dispatcher.py) - start_polling390] - Cause exception while getting updates.
+[MainProcess:33736] [MainThread:4337419648] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 913, in start
+    self._continue = None
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+[2022-06-27 12:54:39,663] - [ERROR] - [aiogram.dispatcher.dispatcher(dispatcher.py) - start_polling390] - Cause exception while getting updates.
+[MainProcess:33736] [MainThread:4337419648] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 913, in start
+    self._continue = None
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+[2022-06-27 12:54:44,706] - [ERROR] - [aiogram.dispatcher.dispatcher(dispatcher.py) - start_polling390] - Cause exception while getting updates.
+[MainProcess:33736] [MainThread:4337419648] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/connector.py", line 1154, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/connector.py", line 880, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 856, in getaddrinfo
+    return await self.run_in_executor(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/socket.py", line 953, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 535, in _request
+    conn = await self._connector.connect(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/connector.py", line 542, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/connector.py", line 907, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/connector.py", line 1166, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 142, in make_request
+    raise exceptions.NetworkError(f"aiohttp client throws an error: {e.__class__.__name__}: {e}")
+aiogram.utils.exceptions.NetworkError: Aiohttp client throws an error: ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+[2022-06-27 12:54:49,737] - [ERROR] - [aiogram.dispatcher.dispatcher(dispatcher.py) - start_polling390] - Cause exception while getting updates.
+[MainProcess:33736] [MainThread:4337419648] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/connector.py", line 1154, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/connector.py", line 880, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 856, in getaddrinfo
+    return await self.run_in_executor(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/socket.py", line 953, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 535, in _request
+    conn = await self._connector.connect(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/connector.py", line 542, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/connector.py", line 907, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/connector.py", line 1166, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 142, in make_request
+    raise exceptions.NetworkError(f"aiohttp client throws an error: {e.__class__.__name__}: {e}")
+aiogram.utils.exceptions.NetworkError: Aiohttp client throws an error: ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+[2022-06-27 12:54:54,751] - [ERROR] - [aiogram.dispatcher.dispatcher(dispatcher.py) - start_polling390] - Cause exception while getting updates.
+[MainProcess:33736] [MainThread:4337419648] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/connector.py", line 1154, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/connector.py", line 880, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 856, in getaddrinfo
+    return await self.run_in_executor(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/socket.py", line 953, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 535, in _request
+    conn = await self._connector.connect(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/connector.py", line 542, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/connector.py", line 907, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/connector.py", line 1166, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 142, in make_request
+    raise exceptions.NetworkError(f"aiohttp client throws an error: {e.__class__.__name__}: {e}")
+aiogram.utils.exceptions.NetworkError: Aiohttp client throws an error: ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+[2022-06-27 12:54:59,764] - [ERROR] - [aiogram.dispatcher.dispatcher(dispatcher.py) - start_polling390] - Cause exception while getting updates.
+[MainProcess:33736] [MainThread:4337419648] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/connector.py", line 1154, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/connector.py", line 880, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 856, in getaddrinfo
+    return await self.run_in_executor(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/socket.py", line 953, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 535, in _request
+    conn = await self._connector.connect(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/connector.py", line 542, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/connector.py", line 907, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/connector.py", line 1166, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 142, in make_request
+    raise exceptions.NetworkError(f"aiohttp client throws an error: {e.__class__.__name__}: {e}")
+aiogram.utils.exceptions.NetworkError: Aiohttp client throws an error: ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+[2022-06-27 12:55:04,779] - [ERROR] - [aiogram.dispatcher.dispatcher(dispatcher.py) - start_polling390] - Cause exception while getting updates.
+[MainProcess:33736] [MainThread:4337419648] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/connector.py", line 1154, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/connector.py", line 880, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 856, in getaddrinfo
+    return await self.run_in_executor(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/socket.py", line 953, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 535, in _request
+    conn = await self._connector.connect(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/connector.py", line 542, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/connector.py", line 907, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/connector.py", line 1166, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 142, in make_request
+    raise exceptions.NetworkError(f"aiohttp client throws an error: {e.__class__.__name__}: {e}")
+aiogram.utils.exceptions.NetworkError: Aiohttp client throws an error: ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+[2022-06-27 12:55:09,791] - [ERROR] - [aiogram.dispatcher.dispatcher(dispatcher.py) - start_polling390] - Cause exception while getting updates.
+[MainProcess:33736] [MainThread:4337419648] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/connector.py", line 1154, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/connector.py", line 880, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 856, in getaddrinfo
+    return await self.run_in_executor(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/socket.py", line 953, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 535, in _request
+    conn = await self._connector.connect(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/connector.py", line 542, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/connector.py", line 907, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/connector.py", line 1166, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 142, in make_request
+    raise exceptions.NetworkError(f"aiohttp client throws an error: {e.__class__.__name__}: {e}")
+aiogram.utils.exceptions.NetworkError: Aiohttp client throws an error: ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+[2022-06-27 13:11:53,816] - [ERROR] - [aiogram.dispatcher.dispatcher(dispatcher.py) - start_polling390] - Cause exception while getting updates.
+[MainProcess:33736] [MainThread:4337419648] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/connector.py", line 1154, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/connector.py", line 880, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 856, in getaddrinfo
+    return await self.run_in_executor(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/socket.py", line 953, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 535, in _request
+    conn = await self._connector.connect(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/connector.py", line 542, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/connector.py", line 907, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/connector.py", line 1166, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 142, in make_request
+    raise exceptions.NetworkError(f"aiohttp client throws an error: {e.__class__.__name__}: {e}")
+aiogram.utils.exceptions.NetworkError: Aiohttp client throws an error: ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+[2022-06-27 16:54:55,478] - [ERROR] - [aiogram.dispatcher.dispatcher(dispatcher.py) - start_polling390] - Cause exception while getting updates.
+[MainProcess:33736] [MainThread:4337419648] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 913, in start
+    self._continue = None
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+[2022-06-27 21:42:12,609] - [ERROR] - [aiogram.dispatcher.dispatcher(dispatcher.py) - start_polling390] - Cause exception while getting updates.
+[MainProcess:33736] [MainThread:4337419648] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 913, in start
+    self._continue = None
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+[2022-06-28 05:42:23,512] - [ERROR] - [aiogram.dispatcher.dispatcher(dispatcher.py) - start_polling390] - Cause exception while getting updates.
+[MainProcess:33736] [MainThread:4337419648] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 913, in start
+    self._continue = None
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+[2022-06-28 11:56:57,516] - [ERROR] - [aiogram.dispatcher.dispatcher(dispatcher.py) - start_polling390] - Cause exception while getting updates.
+[MainProcess:33736] [MainThread:4337419648] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 913, in start
+    self._continue = None
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+[2022-06-28 17:22:59,556] - [ERROR] - [aiogram.dispatcher.dispatcher(dispatcher.py) - start_polling390] - Cause exception while getting updates.
+[MainProcess:33736] [MainThread:4337419648] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 913, in start
+    self._continue = None
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+[2022-06-28 21:50:03,362] - [ERROR] - [aiogram.dispatcher.dispatcher(dispatcher.py) - start_polling390] - Cause exception while getting updates.
+[MainProcess:33736] [MainThread:4337419648] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 913, in start
+    self._continue = None
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+[2022-06-29 04:19:14,123] - [ERROR] - [aiogram.dispatcher.dispatcher(dispatcher.py) - start_polling390] - Cause exception while getting updates.
+[MainProcess:33736] [MainThread:4337419648] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 913, in start
+    self._continue = None
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+[2022-06-29 13:21:37,742] - [ERROR] - [aiogram.dispatcher.dispatcher(dispatcher.py) - start_polling390] - Cause exception while getting updates.
+[MainProcess:33736] [MainThread:4337419648] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 913, in start
+    self._continue = None
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+[2022-06-29 15:37:34,513] - [ERROR] - [aiogram.dispatcher.dispatcher(dispatcher.py) - start_polling390] - Cause exception while getting updates.
+[MainProcess:33736] [MainThread:4337419648] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 913, in start
+    self._continue = None
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+[2022-06-29 17:54:16,959] - [ERROR] - [aiogram.dispatcher.dispatcher(dispatcher.py) - start_polling390] - Cause exception while getting updates.
+[MainProcess:33736] [MainThread:4337419648] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 913, in start
+    self._continue = None
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+[2022-06-29 18:04:40,922] - [ERROR] - [aiogram.dispatcher.dispatcher(dispatcher.py) - start_polling390] - Cause exception while getting updates.
+[MainProcess:33736] [MainThread:4337419648] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 913, in start
+    self._continue = None
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+[2022-06-29 23:17:20,222] - [ERROR] - [aiogram.dispatcher.dispatcher(dispatcher.py) - start_polling390] - Cause exception while getting updates.
+[MainProcess:33736] [MainThread:4337419648] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 913, in start
+    self._continue = None
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+[2022-06-30 01:05:59,075] - [ERROR] - [aiogram.dispatcher.dispatcher(dispatcher.py) - start_polling390] - Cause exception while getting updates.
+[MainProcess:33736] [MainThread:4337419648] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 913, in start
+    self._continue = None
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+[2022-06-30 01:20:36,059] - [ERROR] - [aiogram.dispatcher.dispatcher(dispatcher.py) - start_polling390] - Cause exception while getting updates.
+[MainProcess:33736] [MainThread:4337419648] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 913, in start
+    self._continue = None
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+[2022-06-30 05:36:48,061] - [ERROR] - [aiogram.dispatcher.dispatcher(dispatcher.py) - start_polling390] - Cause exception while getting updates.
+[MainProcess:33736] [MainThread:4337419648] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 913, in start
+    self._continue = None
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+[2022-06-30 10:53:02,631] - [ERROR] - [aiogram.dispatcher.dispatcher(dispatcher.py) - start_polling390] - Cause exception while getting updates.
+[MainProcess:33736] [MainThread:4337419648] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 913, in start
+    self._continue = None
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+[2022-07-02 13:51:00,163] - [ERROR] - [aiogram.dispatcher.dispatcher(dispatcher.py) - start_polling390] - Cause exception while getting updates.
+[MainProcess:4941] [MainThread:4296820096] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 913, in start
+    self._continue = None
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+[2022-07-02 19:08:44,550] - [ERROR] - [aiogram.dispatcher.dispatcher(dispatcher.py) - start_polling390] - Cause exception while getting updates.
+[MainProcess:4941] [MainThread:4296820096] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 913, in start
+    self._continue = None
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+[2022-07-03 01:53:02,409] - [ERROR] - [aiogram.dispatcher.dispatcher(dispatcher.py) - start_polling390] - Cause exception while getting updates.
+[MainProcess:4941] [MainThread:4296820096] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 913, in start
+    self._continue = None
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+[2022-07-03 02:40:27,011] - [ERROR] - [aiogram.dispatcher.dispatcher(dispatcher.py) - start_polling390] - Cause exception while getting updates.
+[MainProcess:4941] [MainThread:4296820096] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 898, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/streams.py", line 616, in read
+    await self._waiter
+aiohttp.client_exceptions.ClientOSError: [Errno 60] Operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 142, in make_request
+    raise exceptions.NetworkError(f"aiohttp client throws an error: {e.__class__.__name__}: {e}")
+aiogram.utils.exceptions.NetworkError: Aiohttp client throws an error: ClientOSError: [Errno 60] Operation timed out
+[2022-07-03 10:45:27,173] - [ERROR] - [aiogram.dispatcher.dispatcher(dispatcher.py) - start_polling390] - Cause exception while getting updates.
+[MainProcess:4941] [MainThread:4296820096] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 913, in start
+    self._continue = None
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+[2022-07-03 11:02:36,216] - [ERROR] - [aiogram.dispatcher.dispatcher(dispatcher.py) - start_polling390] - Cause exception while getting updates.
+[MainProcess:4941] [MainThread:4296820096] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 913, in start
+    self._continue = None
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+[2022-07-03 11:31:25,034] - [ERROR] - [aiogram.dispatcher.dispatcher(dispatcher.py) - start_polling390] - Cause exception while getting updates.
+[MainProcess:4941] [MainThread:4296820096] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 913, in start
+    self._continue = None
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+[2022-07-03 12:25:07,200] - [ERROR] - [asyncio(base_events.py) - default_exception_handler1738] - Task exception was never retrieved
+future: <Task finished name='Task-35' coro=<Dispatcher._process_polling_updates() done, defined at /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError("process_finish_state() missing 2 required positional arguments: 'message' and 'state'")>
+[MainProcess:7805] [MainThread:4340548992] - /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/handlers/text_handlers/main_menu/buyBot/sum.py", line 23, in sum
+    return await process_finish_state()
+TypeError: process_finish_state() missing 2 required positional arguments: 'message' and 'state'
+[2022-07-03 13:22:23,367] - [ERROR] - [aiogram.dispatcher.dispatcher(dispatcher.py) - start_polling390] - Cause exception while getting updates.
+[MainProcess:8727] [MainThread:4303111552] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 913, in start
+    self._continue = None
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+[2022-07-03 13:46:40,251] - [ERROR] - [asyncio(base_events.py) - default_exception_handler1738] - Task exception was never retrieved
+future: <Task finished name='Task-8' coro=<Dispatcher._process_polling_updates() done, defined at /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError("unsupported operand type(s) for +: 'Chat' and 'str'")>
+[MainProcess:9110] [MainThread:4339254656] - /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/handlers/text_handlers/main_menu/question.py", line 30, in process_question_request
+    print(message.chat + "    " + admin_chat)
+TypeError: unsupported operand type(s) for +: 'Chat' and 'str'
+[2022-07-03 13:46:43,822] - [ERROR] - [asyncio(base_events.py) - default_exception_handler1738] - Task exception was never retrieved
+future: <Task finished name='Task-11' coro=<Dispatcher._process_polling_updates() done, defined at /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=AttributeError("'NoneType' object has no attribute 'id'")>
+[MainProcess:9110] [MainThread:4339254656] - /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/handlers/text_handlers/main_menu/question.py", line 29, in process_question_request
+    print(message.reply_to_message.forward_from.id)
+AttributeError: 'NoneType' object has no attribute 'id'
+[2022-07-03 13:53:17,225] - [ERROR] - [asyncio(base_events.py) - default_exception_handler1738] - Task exception was never retrieved
+future: <Task finished name='Task-12' coro=<Dispatcher._process_polling_updates() done, defined at /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=AttributeError("'NoneType' object has no attribute 'forward_from'")>
+[MainProcess:9235] [MainThread:4375233920] - /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/handlers/text_handlers/main_menu/question.py", line 30, in process_question_request
+    await bot.send_message(message.reply_to_message.forward_from.id, "Ответ на ваше обращение: \n\n" + message.text)
+AttributeError: 'NoneType' object has no attribute 'forward_from'
+[2022-07-03 14:30:56,484] - [ERROR] - [aiogram.dispatcher.dispatcher(dispatcher.py) - start_polling390] - Cause exception while getting updates.
+[MainProcess:9541] [MainThread:4344628608] - /Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py
+Traceback (most recent call last):
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 913, in start
+    self._continue = None
+  File "/Users/sammuurr/PycharmProjects/GeekShop/venv/lib/python3.9/site-packages/aiohttp/helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
